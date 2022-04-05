@@ -42,7 +42,7 @@ const Review = () => {
   
   return (
     <article className='review'>
-      <div clssName='img-container'>
+      <div className='img-container'>
         <img src={image} alt={name} className='person-img'/>
         <span className='quote-icon'>
           <FaQuoteRight />
@@ -63,7 +63,7 @@ const Review = () => {
         Surprise me
       </button>
     </article>
-  )
+  );
 };
 
 export default Review;
